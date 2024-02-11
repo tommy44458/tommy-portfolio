@@ -1,0 +1,8 @@
+node_modules/
+build/
+dist/
+.eslintrc.*
+components.d.ts
+auto-imports.d.ts
+tailwind.config.js
+*.config.js
