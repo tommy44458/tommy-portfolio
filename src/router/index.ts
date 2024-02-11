@@ -12,7 +12,7 @@ const defaultRouteConfigures: RouteRecordRaw[] = [
     {
         name: 'console',
         path: '/console/:pathMatch(.*)*',
-        redirect: '/console/task',
+        redirect: '/console/page1',
         component: ConsoleLayout,
         children: consoleRoutesArray,
     },
@@ -26,7 +26,7 @@ const defaultRouteConfigures: RouteRecordRaw[] = [
     {
         name: 'root',
         path: '/',
-        redirect: '/console/task',
+        redirect: '/console/page1',
     },
     {
         name: '404',
