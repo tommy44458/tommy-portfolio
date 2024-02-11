@@ -1,5 +1,5 @@
 <template>
-	<ElRow class="sm:px-[20px] px-0">
+	<ElRow class="sm:px-[40px] px-[16px]">
 		<ElCol :span="12">
 			<div class="flex-center justify-start cursor-pointer" @click="router.push('/')">
                 <div
@@ -12,9 +12,13 @@
                 <ElText class="my-0 text-color-regular">Tommy Huang</ElText>
 			</div>
 		</ElCol>
-		<ElCol :span="12">
-			<div class="flex-center justify-end">
+		<ElCol :span="6">
+            <div class="flex-center">
                 <ElText class="my-0 text-color-regular">Based in Hsinchu-TW</ElText>
+            </div>
+        </ElCol>
+        <ElCol :span="6">
+			<div class="flex-center justify-end">
                 <ElButton
                     v-if="!layoutStore.isMobile"
                     :icon="SuccessFilled"

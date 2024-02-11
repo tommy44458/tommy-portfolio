@@ -7,7 +7,7 @@
 			<ElContainer>
 				<ElContainer v-loading="layoutStore.isRouteChanging">
 					<ElMain
-						class="!-p-[0] !bg-white !p-[16px]"
+						class="!p-0 !bg-white"
 					>
 						<RouterView />
 					</ElMain>
@@ -32,6 +32,7 @@ const layoutStore = useLayoutStore()
     height 84px
     background-color #fff
     z-index 2
+    padding 0
 
 .el-aside
     border-right 1px solid #E3ECED
