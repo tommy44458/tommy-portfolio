@@ -118,3 +118,15 @@
 
 .bg-color-primary-light-9
     background-color var(--el-color-primary-light-9) !important
+
+.ani-block
+    display: block /* 移除圖片底部的空隙 */
+    width: 100% /* 可以根據需要調整 */
+    height: auto /* 保持圖片的原始寬高比 */
+    transition: transform 0.5s ease /* 平滑過渡效果 */
+    transform-origin: center /* 確保縮放以圖片中心為基點 */
+
+.ani-block-container:hover
+    .ani-block
+        transform: scale(1.01) /* 滑鼠懸停時放大圖片10% */
+        color var(--el-text-color-primary)

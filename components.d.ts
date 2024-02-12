@@ -49,6 +49,7 @@ declare module '@vue/runtime-core' {
     SvgIcon: typeof import('./src/components/icon/SvgIcon.vue')['default']
     TaskComponent: typeof import('./src/components/task/TaskComponent.vue')['default']
     TaskDataChart: typeof import('./src/components/task/TaskDataChart.vue')['default']
+    WorkTitle: typeof import('./src/components/work/WorkTitle.vue')['default']
   }
 }
 
