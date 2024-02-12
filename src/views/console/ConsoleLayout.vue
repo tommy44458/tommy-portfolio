@@ -10,10 +10,8 @@
 						class="!p-0 !bg-white"
 					>
 						<RouterView />
+                        <LayoutFooter />
 					</ElMain>
-					<ElFooter class="bg-white">
-						<LayoutFooter />
-					</ElFooter>
 				</ElContainer>
 			</ElContainer>
 		</ElContainer>
@@ -38,6 +36,4 @@ const layoutStore = useLayoutStore()
     border-right 1px solid #E3ECED
     width unset !important
 
-.el-footer
-    height 32px
 </style>

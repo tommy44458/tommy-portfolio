@@ -5,6 +5,8 @@ import '@vue/runtime-core'
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    Avatar: typeof import('./src/components/home/avatar.vue')['default']
+    ConsolePage1: typeof import('./src/components/home/ConsolePage1.vue')['default']
     ElAside: typeof import('element-plus/es')['ElAside']
     ElButton: typeof import('element-plus/es')['ElButton']
     ElCard: typeof import('element-plus/es')['ElCard']
@@ -29,6 +31,13 @@ declare module '@vue/runtime-core' {
     ElText: typeof import('element-plus/es')['ElText']
     ElTimeline: typeof import('element-plus/es')['ElTimeline']
     ElTimelineItem: typeof import('element-plus/es')['ElTimelineItem']
+    HomeAchievement: typeof import('./src/components/home/HomeAchievement.vue')['default']
+    'HomeAchievement copy': typeof import('./src/components/home/HomeAchievement copy.vue')['default']
+    HomeAvatar: typeof import('./src/components/home/HomeAvatar.vue')['default']
+    HomeExperience: typeof import('./src/components/home/HomeExperience.vue')['default']
+    'HomeExperience copy': typeof import('./src/components/home/HomeExperience copy.vue')['default']
+    HomeSelectedWork: typeof import('./src/components/home/HomeSelectedWork.vue')['default']
+    'HomeSelectedWork copy': typeof import('./src/components/home/HomeSelectedWork copy.vue')['default']
     LayoutFooter: typeof import('./src/components/layout/LayoutFooter.vue')['default']
     LayoutHeader: typeof import('./src/components/layout/LayoutHeader.vue')['default']
     LayoutMenu: typeof import('./src/components/layout/LayoutMenu.vue')['default']
@@ -36,6 +45,7 @@ declare module '@vue/runtime-core' {
     Loading: typeof import('element-plus/es')['ElLoadingDirective']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    SelectedWorkEntrance: typeof import('./src/components/home/SelectedWorkEntrance.vue')['default']
     SvgIcon: typeof import('./src/components/icon/SvgIcon.vue')['default']
     TaskComponent: typeof import('./src/components/task/TaskComponent.vue')['default']
     TaskDataChart: typeof import('./src/components/task/TaskDataChart.vue')['default']
